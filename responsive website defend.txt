@@ -1,0 +1,25 @@
+HTML
+
+DOCTYPE and HTML Tag: Standard declarations for HTML5 markup.
+Meta Tags: Defines character set and viewport for the webpage.
+Title: Sets the title of the webpage.
+Link Tags: Links external CSS files for styling and Bootstrap CSS for responsive design.
+Font Awesome: Loads Font Awesome library for icons.
+Custom CSS: Defines custom styles for text color.
+Header Section: Contains the navigation bar and a welcome message.
+Navigation Bar: Responsive navbar with links to different sections of the website and a dropdown menu for additional services.
+Google Maps Location: Embeds a Google Maps iframe for showcasing the location.
+Social Media Links: Provides links to social media profiles.
+Script Tags: Imports jQuery and Bootstrap JavaScript libraries for navbar functionality and responsiveness.
+
+CSS:
+Reset CSS: Resets default margin, padding, and box-sizing for all elements.
+Header Styles: Styles for the header background image and its positioning.
+Navigation Styles: Styles for the navigation menu, including list items and anchor tags.
+Main Container Styles: Styles for the main container, setting its maximum width and centering it.
+Title Styles: Styles for the title of the website.
+Button Styles: Styles for buttons, including hover effects.
+Submenu Styles: Styles for the dropdown submenu.
+Media Queries: Defines responsive styles for smaller screens.
+
+

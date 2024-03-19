@@ -1,0 +1,146 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+
+/* Header Styles */
+header {
+    background-image: linear-gradient(rgba(6, 61, 226, 0.5), rgba(0, 0, 0, 0.5)), url(photo1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+/* Navigation Styles */
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Main Container Styles */
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Title Styles */
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 85px;
+}
+
+/* Button Styles */
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fffdfd;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.6s ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3a0ce3;
+    color: #0d0909;
+}
+
+/* Submenu Styles */
+.sub-menu {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul {
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #0d0b0b;
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul {
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li {
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #070606;
+    background: transparent;
+    transition: 0.4s ease;
+    text-align: left;
+    border-radius: 0;
+}
+
+.main ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    ul {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+    
+    ul li {
+        display: block;
+    }
+    
+    .title {
+        top: 30%;
+    }
+    
+    .button {
+        top: 40%;
+    }
+}
